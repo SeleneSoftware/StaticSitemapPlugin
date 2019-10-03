@@ -1,0 +1,26 @@
+{
+    "name": "selenesoftware/selene-static-sitemap",
+    "description": "Sitemap plugin for Selene Static Builder",
+    "type": "library",
+    "require": {
+        "selenesoftware/selenestaticskeleton": "^0.0.4",
+        "thepixeldeveloper/sitemap": "^5.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jason Marshall",
+            "email": "jasonmarshall@selenesoftware.us"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Selene\\SitemapPlugin\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Selene\\SitemapPlugin\\Tests\\": "tests/"
+        }
+    }
+}
